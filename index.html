@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link 
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" 
+        rel="stylesheet"
+    />
+
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <link rel="old stylesheet" href="./css/style.css">
+    <title>Sohail Mirza</title>
+</head>
+<body>
+    <div id="content-home" class="auth-invisible hidden login-page">
+
+        
+        <section class="presentation">
+            <div class="introduction">
+                <div class="login-page-text">
+                    <h1>Sohail Mirza</h1>
+                    <p>Personal Portfolio - Login to view </p>
+                    <button id="qsLoginBtn" onclick="login()" class="auth-invisible hidden login-button">Log in</button>
+                </div>
+            </div>
+        </section>
+
+    </div>
+    <div id="content-profile" class="auth-visible hidden">
+        <header>
+            <nav>
+                <ul class="nav-links">
+                    <li><a class="nav-link home-nav active" href="#">Home</a></li>
+                    <li><a class="nav-link about-me-nav" href="#">About Me</a></li>
+                    <li><a class="nav-link gallery-nav" href="#">Gallery</a></li>
+                    <li><a class="nav-link contact-nav" href="#">Contact</a></li>
+                    <li><a class="nav-link gallery-admin-nav" href="#">Gallery Admin</a></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li><a class="nav-link" href="#" id="qsLogoutBtn" onclick="logout()">Logout</a></li>
+                </ul>
+            </nav>
+        </header>
+                
+        <main>
+
+            <section class="presentation home-page">
+                <div class="introduction">
+                    <div class="intro-text">
+                        <h1>Sohail Mirza</h1>
+                        <p>
+                            Intern at Zemoso Technologies
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="presentation about-me-page hidden">
+                <div class="introduction">
+                    <div class="intro-text">
+                        <h1>Sohail Mirza</h1>
+                        <p>
+                            As an Engineer, I want to help people overcome fuzzy human protocols and leverage technology to
+                            make the world a better place. I posit that process kills efficiency and simple is always
+                            better. I code, write, read, speak, learn and listen. Most of all, I am as passionate about my
+                            craft today as I was when I wrote my first line of code.
+                        </p>
+                        <p>
+                            As a leader, I believe that every person has the power to change the world if they have a
+                            positive attitude, an open, optimistic mind, and a desire to thrive to succeed. I strongly
+                            believe in kindness, respect, integrity and transparency, and empowering those around me to be
+                            their best and support them to achieve their dreams. I believe that we grow in this world by
+                            helping each other.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="gallery-page hidden">
+                <section class="presentation">
+                    <div class="introduction">
+                        <div class="intro-text">
+                            <p>
+                                Collection of Images
+                            </p>
+                        </div>
+
+                        <div class="grid">
+                        </div>
+
+                    </div>
+                </section>
+        
+                
+            </section>
+            
+
+
+            <section class="contact-page hidden">
+                <div class="form-container">
+                    <form action="/">
+                        <label for="firstName">First Name</label>
+                        <input type="text" name="firstName" placeholder="First Name" autocomplete="off" required/>
+        
+                        <label for="lastName">Last Name</label>
+                        <input type="text" name="lastName" placeholder="Last Name" autocomplete="off" required/>
+        
+                        <label for="email">Email</label>
+                        <input type="email" name="email" placeholder="username@domain.com" autocomplete="off" required/>
+        
+                        <label for="message">Message</label>
+                        <textarea name="message" placeholder="Write your message" style="height: 100px;" required></textarea>
+        
+                        
+                        <div style="display: flex; width: 25%; margin: auto;">
+                            <input type="submit" value="submit">
+                        </div>
+                    </form>
+                </div>
+            </section>
+
+
+            <section class="gallery-admin-page hidden">
+                <section class="presentation gallery-admin-page-images">
+                    <div class="introduction">
+                        <div class="intro-text">
+                            <button class="add-button">Add</button>
+                        </div>
+
+                        <div class="grid" id="fu">
+                            
+                        </div>
+
+                    </div>
+                </section>
+
+                <section class="add-image hidden">
+                    <div class="form-container">
+                        <form class="add-form" action="/">
+                            <label for="url">URL</label>
+                            <input id="new-url" type="url" name="url" placeholder="url" value = "" autocomplete="off" required/>
+            
+                            <label for="name">Name</label>
+                            <input id="new-name" type="text" name="name" placeholder="Name" value = "" autocomplete="off" required/>
+            
+                            <label for="information">Information</label>
+                            <input id="new-information" type="text" name="information" value = "" placeholder="Information" autocomplete="off" required/>
+            
+                            
+                            <div style="display: flex; width: 25%; margin: auto;">
+                                <input type="submit" value="submit" class="add-submit">
+                            </div>
+                        </form>
+                    </div>
+                </section>
+                
+                <section class="edit-image hidden">
+                    <div class="form-container">
+                        <form class="edit-form" action="/">
+                            
+                        </form>
+                    </div>
+                </section>
+                
+            </section>
+
+        </main>
+</div>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.auth0.com/js/auth0-spa-js/1.2/auth0-spa-js.production.js"></script>
+    <script src="./js/index.js"></script>
+    <script src="./js/app.js"></script>
+    <script src="./js/ui.js"></script>
+
+</body>
+</html>

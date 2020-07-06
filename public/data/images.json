@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "url": "https://picsum.photos/id/0/5616/3744",
+        "name": "laptop",
+        "information": "laptop",
+        "uploadedDate": "21-6-2020"
+    },
+
+    {
+        "id": 2,
+        "url": "https://picsum.photos/id/1035/5854/3903",
+        "name": "Waterfall",
+        "information": "Waterfall",
+        "uploadedDate": "21-6-2020"
+    },
+
+    {
+        "id": 3,
+        "url": "https://picsum.photos/id/1038/367/267",
+        "name": "Water",
+        "information": "Water",
+        "uploadedDate": "21-6-2020"
+    },
+
+    {
+        "id": 4,
+        "url": "https://picsum.photos/id/1052/367/267",
+        "name": "Snow",
+        "information": "Snow",
+        "uploadedDate": "21-6-2020"
+    },
+
+    {
+        "id": 5,
+        "url": "https://picsum.photos/id/1044/367/267",
+        "name": "Nature",
+        "information": "Nature",
+        "uploadedDate": "21-6-2020"
+    },
+
+    {
+        "id": 6,
+        "url": "https://picsum.photos/id/1056/367/267",
+        "name": "Clouds",
+        "information": "Clouds",
+        "uploadedDate": "21-6-2020"
+    },
+
+    {
+        "id": 7,
+        "url": "https://picsum.photos/id/1058/367/267",
+        "name": "Stadium",
+        "information": "Stadium",
+        "uploadedDate": "21-6-2020"
+    },
+
+    {
+        "id": 8,
+        "url": "https://picsum.photos/id/1062/367/267",
+        "name": "Dog",
+        "information": "Dog",
+        "uploadedDate": "21-6-2020"
+    },
+
+    {
+        "id": 9,
+        "url": "https://picsum.photos/id/133/367/267",
+        "name": "Car",
+        "information": "Car",
+        "uploadedDate": "21-6-2020"
+    }
+
+]
